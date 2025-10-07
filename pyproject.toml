@@ -1,0 +1,17 @@
+[project]
+name = "langgraph-agent-handson"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.40.46",
+    "langchain>=0.3.27",
+    "langchain-aws>=0.2.35",
+    "langchain-community>=0.3.30",
+    "langchain-tavily>=0.2.12",
+    "langgraph>=0.6.8",
+    "pydantic>=2.11.10",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.50.0",
+]

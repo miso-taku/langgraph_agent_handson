@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Claude CLI
+.claude-cli/
+.claude
+
+# Local files for specific projects
+/report
+design_principles.md
